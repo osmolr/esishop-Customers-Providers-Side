@@ -1,0 +1,22 @@
+ .container{
+    opacity: ;
+ 	margin: auto;
+ 	margin-top: 10%;
+ 	vertical-align: middle;
+ 	width: 60%;
+ 	background: rgba(248,248,248,.8);
+ /*	box-shadow: 5px 5px 15px #f0f0f0;*/
+ }
+ body {
+ 	background-image: url(../fournisseur/img2.jpg);
+ 	background-size: cover;
+ }
+ h1 {
+ 	font-size: 300%;
+ }
+img {
+	margin: 2% 2%;
+}
+#DAPPlugin{
+display:none;
+}

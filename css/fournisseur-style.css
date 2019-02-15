@@ -1,0 +1,59 @@
+h1 {
+	margin: auto;
+	margin-top: 2%;
+	text-align: center;
+}
+.container{ 
+	background-color:  rgba(248,248,248,.8);
+	height: 80%;
+ /*	box-shadow: 2px 2px 15px #f0f0f0;*/
+ 	margin-top: 100px;
+ 	margin-bottom: 50px;
+ 	
+}
+.table,th {
+	text-align: center;
+	vertical-align:middle;  
+	margin: auto;
+}
+#tab{
+	width: 80%;
+	height: 80%;
+	overflow-x: scroll; 
+	margin: auto;
+	margin-top: 30px;
+
+}
+body {
+ 	background-image: url(../fournisseur/img2.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ }
+ textarea {
+ 	resize:none;
+ }
+ .btn {
+ 	border-radius: 0px;
+ 	box-shadow: 2px 2px 5px #000 ;
+ 	text-align: center;
+    font-size: 80%;
+ }
+
+
+.img-thumbnail{
+	width: 140px;
+}
+
+.chois{
+
+	margin: auto ;
+	width: 80%;
+	margin-bottom: 10px;
+}
+  th.btn {
+	text-align: center; 
+	width: 100%;
+}
+#DAPPlugin{
+display:none;
+}

@@ -1,0 +1,80 @@
+  
+  /* BODY STUFF _______________________ */
+  body {
+    padding-top:95px;
+	background-image: url(../pic/body.png) ;
+	background-repeat: no-repeat;
+	background-size:100%  100%;
+  }
+	/* debut style div-produit*/
+	.divproduit{
+		box-shadow: 0 1px 2px rgba(0,0,0,0.25), 0 1px 2px rgba(0,0,0,0.25);
+		text-align:center;
+		background-color:#FFF;
+		float:left;
+		margin-top:10px;
+		margin-bottom:15px;		
+		padding-bottom:10px;
+		height: auto;
+	}
+	.col-item .photo img
+	{
+		width: 100%;
+	}
+	.btn-detailes{
+		cursor:pointer;
+		text-decoration:none !important;
+		font-weight: 600;
+		color: #ffa700;
+		padding-left: 40%;
+		padding-top: 10px;
+		border-top: 1px solid #ccc;
+	}
+.row{
+	padding: 0;
+	margin: 0px;
+}
+	.info
+	{
+	   color: #444;
+		font-weight: 600;
+		font-size: 20px;
+		margin: 5px;
+	}
+	.prix
+	{
+	   color: #178119;
+		font-family: cursive;
+		font-size: 17px;
+		margin: 5px;
+	}
+	.autre{
+		padding-bottom:10px !important;
+	}
+	.autre>span{
+		font-weight: 600;
+		color: #5bc0de;
+		font-size: 14px;
+	}
+	/* fin style div-produit*/
+	/* debut style pagination*/
+	.pagination a{
+	  border-radius: 0 !important;
+	  border: 1px solid #bbb;
+	  font-weight: 600 !important;
+	}
+	.pageactive{
+		background-color: darkseagreen !important;
+		color: #FFF !important;
+	}
+	.pagedisable{
+		pointer-events: none;
+		color: #aaa !important;
+	}
+	/* fin style pagination*/
+	.selecto{
+		box-shadow: none !important;
+		border: 1px solid #ddd;
+		border-radius:0;
+		margin-bottom: 20px;
+	}
